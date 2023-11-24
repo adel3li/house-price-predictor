@@ -63,11 +63,11 @@ To set up the project locally, follow these steps:
    ```bash
    <!-- git clone https://github.com/your-username/your-repo.git -->
 
-      ```bash
-      cd your-repo
+  ```bash
+  cd your-repo
 
-      ```bash
-      pip install -r requirements.txt
+  ```bash
+  pip install -r requirements.txt
 
 
 ## Data
