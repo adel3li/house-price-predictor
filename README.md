@@ -11,14 +11,14 @@ This repository contains the code and data for a project related to house sales.
 3. [Usage](#usage)
 4. [Data](#data)
 5. [Code](#code)
-6. [Exploratory Data Analysis](#exploratory-data-analysis)
-7. [Data Cleaning](#data-cleaning)
-8. [Model Training](#model-training)
-9. [Validation](#validation)
-10. [Streamlit App](#streamlit-app)
-11. [Requirements](#requirements)
-12. [Contributing](#contributing)
-13. [License](#license)
+6. [Data Cleaning](#data-cleaning)
+7. [Exploratory Data Analysis](#exploratory-data-analysis)
+. [Model Training](#model-training)
+10. [Validation](#validation)
+11. [Streamlit App](#streamlit-app)
+12. [Requirements](#requirements)
+13. [Contributing](#contributing)
+14. [License](#license)
 
 ## Project Structure
 
@@ -63,11 +63,11 @@ To set up the project locally, follow these steps:
    ```bash
    <!-- git clone https://github.com/your-username/your-repo.git -->
 
-    ```bash
-    cd your-repo
+      ```bash
+      cd your-repo
 
-    ```bash
-    pip install -r requirements.txt
+      ```bash
+      pip install -r requirements.txt
 
 
 ## Data
@@ -112,4 +112,28 @@ The code for this project is organized into scripts and notebooks. Below is an o
 - **Notebooks:**
   - `house_sales_EDA.ipynb`: Jupyter notebook for exploratory data analysis.
   - `profiling_house_sales_data.ipynb`: Jupyter notebook for profiling house sales data.
+
+## Data Cleaning
+
+Data cleaning is a crucial step in preparing the house sales data for analysis and model training. The main data cleaning script is:
+
+- **`scripts/cleaning_house_sales.py`**
+  - This script is responsible for cleaning the raw house sales data.
+  - It handles missing values, outliers, and other data inconsistencies to ensure the dataset is suitable for analysis and modeling.
+  - The cleaned data is saved as `cleaned_house_sales.csv` in the `data` folder.
+
+
+## Exploratory Data Analysis (EDA)
+
+The exploratory data analysis is performed using Jupyter notebooks. Here is a brief overview of the EDA notebooks:
+
+- **`notebooks/profiling_house_sales_data.ipynb`**
+  - This Jupyter notebook profiles the house sales data, providing detailed statistics and information about the dataset.
+  - It can be used to gain insights into the distribution of features and identify patterns.
+
+
+- **`notebooks/house_sales_EDA.ipynb`**
+  - This Jupyter notebook explores the raw house sales data.
+  - It contains visualizations, statistics, and insights to better understand the characteristics of the dataset.
+
 
