@@ -63,9 +63,12 @@ To set up the project locally, follow these steps:
    ```bash
    <!-- git clone https://github.com/your-username/your-repo.git -->
 
-  ```bash
-  cd your-repo
-  ```
+    ```bash
+    cd your-repo
+
+    ```bash
+    pip install -r requirements.txt
+
 
 ## Data
 
@@ -96,4 +99,17 @@ The datasets in the `data` folder serve various purposes in the house sales proj
 
 Ensure that you run the data cleaning script before using the processed data files.
 
-...
+## Code
+
+The code for this project is organized into scripts and notebooks. Below is an overview of the main code files:
+
+- **Scripts:**
+  - `cleaning_house_sales.py`: Script for cleaning house sales data.
+  - `data_mapper.py`: Script for mapping data.
+  - `train.py`: Script for model training.
+  - `validate.py`: Script for model validation.
+
+- **Notebooks:**
+  - `house_sales_EDA.ipynb`: Jupyter notebook for exploratory data analysis.
+  - `profiling_house_sales_data.ipynb`: Jupyter notebook for profiling house sales data.
+
