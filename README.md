@@ -61,13 +61,13 @@ To set up the project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   <!-- git clone https://github.com/your-username/your-repo.git -->
+   git clone https://github.com/adel3li/house-sales.git
    ```
-
+2. Navigate to the project directory:
   ```bash
   cd your-repo
   ```
-
+3. Install the required dependencies:
   ```bash
   pip install -r requirements.txt
   ```
