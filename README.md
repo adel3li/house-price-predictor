@@ -1,4 +1,6 @@
-# House Sales Project
+# House Sales and Price Prediction Project
+
+![banner](/img/cover.avif)
 
 ## Authors
 
