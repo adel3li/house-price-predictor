@@ -32,30 +32,31 @@ The Repository is organized with the following directory structure:
 
 ```
 ├── datasets
-│   ├── base_result.csv                                  <- the test data
-│   ├── cleaned_house_sales.csv                                 <- the train data
-│   ├── compare_result.csv                                  <- the test data
-│   ├── house_sales.csv                                 <- the train data
-│   ├── processed_train_data.csv                                  <- the test data
-│   ├── processed_train_df.csv                                 <- the train data
-│   ├── processed_validation_data.csv                                  <- the test data
-│   ├── processed_validation_df.csv                                 <- the train data
+│   ├── base_result.csv                                  
+│   ├── cleaned_house_sales.csv                                 
+│   ├── compare_result.csv                                  
+│   ├── house_sales.csv                                 
+│   ├── processed_train_data.csv                                  
+│   ├── processed_train_df.csv                                 
+│   ├── processed_validation_data.csv                                  
+│   ├── processed_validation_df.csv                                
 |
 |
 ├── img
-│   ├── 0.gif                              <- A picture of the bottom 10 features
-│   ├── 1.gif                           <- list of all the dependencies with their versions(for conda environment)
-│   ├── 2.gif                         <- gif file used in the README
-│   ├── 3.gif                               <- heatmap image used in the README
-│   ├── 4.gif                    <- banner image used in the README
-│
+│   ├── 0.gif                              
+│   ├── 1.gif                         
+│   ├── 2.gif                         
+│   ├── 3.gif                               
+│   ├── 4.gif                   
 │
 │
 ├── LICENSE                                       <- license file.
 │
 │
-├── Loan_amount_prediction.ipynb                  <- main python notebook where all the analysis and modeling are done.
-│
+├── notebooks
+    ├── profiling_house_sales_data.ipynb.ipynb                  <- python notebook where all the data profiling are done.
+    ├── house_sales_EDA.ipynb.ipynb                  <- main python notebook where all the analysis are done.
+|
 │
 ├── README.md                                     <- this readme file.
 │
