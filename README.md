@@ -61,7 +61,7 @@ The Repository is organized with the following directory structure:
 ├── README.md                                     <- this readme file.
 │
 │
-├── loan_amount_app.py                            <- file with the model and streamlit component for rendering the interface.
+├── streamlit_app.py                            <- file with the model and streamlit component for rendering the interface.
 │
 │
 ├── requirements.txt                              <- list of all the dependencies with their versions(used for Streamlit).
