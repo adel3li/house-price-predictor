@@ -60,6 +60,14 @@ The Repository is organized with the following directory structure:
     ├── house_sales_EDA.ipynb.ipynb                  <- main python notebook where all the analysis are done.
 |
 |
+├── scripts
+│   ├── app.py                              
+│   ├── cleaning_house_sales.py                         
+│   ├── data_mapper.py                         
+│   ├── train.py                               
+│   ├── validate.py                   
+│
+│
 ├── LICENSE                                       <- license file.
 │
 │
@@ -73,7 +81,7 @@ The Repository is organized with the following directory structure:
 
 ```
 
-- **.devcontainer**
+<!-- - **.devcontainer**
   - `devcontainer.json`
 
 - **data**
@@ -100,7 +108,7 @@ The Repository is organized with the following directory structure:
   - `requirements.txt`
 
 - **app**
-  - `streamlit_app.py`
+  - `streamlit_app.py` -->
 
 
 ## Installation
