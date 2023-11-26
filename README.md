@@ -31,6 +31,11 @@ This repository contains the code and data for a project related to house sales.
 The Repository is organized with the following directory structure:
 
 ```
+│
+├── .devcontainer
+│   ├── devcontainer.json                                 
+│
+│
 ├── datasets
 │   ├── base_result.csv                                  
 │   ├── cleaned_house_sales.csv                                 
@@ -50,13 +55,13 @@ The Repository is organized with the following directory structure:
 │   ├── 4.gif                   
 │
 │
-├── LICENSE                                       <- license file.
-│
-│
 ├── notebooks
     ├── profiling_house_sales_data.ipynb.ipynb                  <- python notebook where all the data profiling are done.
     ├── house_sales_EDA.ipynb.ipynb                  <- main python notebook where all the analysis are done.
 |
+|
+├── LICENSE                                       <- license file.
+│
 │
 ├── README.md                                     <- this readme file.
 │
