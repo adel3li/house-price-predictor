@@ -1,6 +1,17 @@
-# House Sales and Price Prediction Project
+# House Price Prediction Project
 
 ![banner](/img/cover.avif)
+
+![Python version](https://img.shields.io/badge/Python%20version-3.10%2B-lightgrey)
+![GitHub last commit](https://img.shields.io/github/last-commit/semasuka/Loan-amount-prediction-regression)
+![GitHub repo size](https://img.shields.io/github/repo-size/semasuka/Loan-amount-prediction-regression)
+![Type of ML](https://img.shields.io/badge/Type%20of%20ML-Regression-red)
+![License](https://img.shields.io/badge/License-MIT-green)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1yejfDKFm8zRZ6swoEP-ibgx8ZOQe5vNl)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/semasuka/loan-amount-prediction-regression/main/loan_amount_app.py)
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+
+Badge [source](https://shields.io/)
 
 ## Authors
 

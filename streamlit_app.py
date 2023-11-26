@@ -5,7 +5,7 @@ import sklearn
 from sklearn.ensemble import RandomForestRegressor
 
 # Load processed training data
-train_data = pd.read_csv('./data/processed_train_df.csv')
+train_data = pd.read_csv('./datasets/processed_train_df.csv')
 
 # Train a simple RandomForestRegressor (replace this with your actual model training)
 model = RandomForestRegressor()
