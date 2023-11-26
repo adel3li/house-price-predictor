@@ -1,6 +1,6 @@
 # House Price Prediction Project
 
-![banner](/img/cover.avif)
+![banner](/img/price-prediction.avif)
 
 ![Python version](https://img.shields.io/badge/Python%20version-3.10%2B-lightgrey)
 <!-- ![GitHub last commit](https://img.shields.io/github/last-commit/semasuka/Loan-amount-prediction-regression) -->
