@@ -64,13 +64,13 @@ To set up the project locally, follow these steps:
    git clone https://github.com/adel3li/house-sales.git
    ```
 2. Navigate to the project directory:
-  ```bash
-  cd your-repo
-  ```
+   ```bash
+   cd your-repo
+   ```
 3. Install the required dependencies:
-  ```bash
-  pip install -r requirements.txt
-  ```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 
 ## Data
@@ -202,11 +202,11 @@ contributions are welcomed to improve the project. To contribute, follow these s
    git checkout -b feature/your-feature-name
    ```
 3. Make your changes and commit them:
-```bash
+   ```bash
    git commit -m "Add your commit message here"
    ```
 4. Push your changes to your forked repository:
-```bash
+   ```bash
    git push origin feature/your-feature-name
    ```
 
