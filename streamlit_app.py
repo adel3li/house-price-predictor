@@ -18,13 +18,13 @@ model.fit(features, target)
 st.title("Real Estate Price Prediction App")
 
 # Sidebar with user input
-st.sidebar.header("User Input Features")
+st.header("User Input Features")
 
 # Collect user input features
-bedrooms = st.sidebar.slider("Bedrooms", min_value=1, max_value=10, value=5)
-house_type = st.sidebar.selectbox("House Type", ['Terraced', 'Semi-detached', 'Detached'])
-area = st.sidebar.slider("Area (sq.m.)", min_value=50, max_value=1000, value=200)
-city = st.sidebar.selectbox("City", ['Silvertown', 'Riverford', 'Teasdale', 'Poppleton'])
+bedrooms = st.slider("Bedrooms", min_value=1, max_value=10, value=5)
+house_type = st.selectbox("House Type", ['Terraced', 'Semi-detached', 'Detached'])
+area = st.slider("Area (sq.m.)", min_value=50, max_value=1000, value=200)
+city = st.selectbox("City", ['Silvertown', 'Riverford', 'Teasdale', 'Poppleton'])
 
 # Perform one-hot encoding for 'house_type' and 'city'
 user_input = pd.DataFrame({
