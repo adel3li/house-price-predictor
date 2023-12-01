@@ -1,12 +1,16 @@
 # House Sales Project
 
+## Authors
+
+- [@adel3li](https://github.com/adel3li)
+
 ## Description
 
 This repository contains the code and data for a project related to house sales. The project involves data cleaning, exploratory data analysis (EDA), profiling, and model training and validation. The project is structured with specific folders for data, code, and various outputs.
 
 ## Table of Contents
 
-1. [Project Structure](#project-structure)
+1. [Repository Structure](#repository-structure)
 2. [Installation](#installation)
 3. [Data](#data)
 4. [Code](#code)
@@ -20,9 +24,48 @@ This repository contains the code and data for a project related to house sales.
 13. [Contributing](#contributing)
 14. [License](#license)
 
-## Project Structure
 
-The project is organized with the following directory structure:
+
+## Repository structure
+
+The Repository is organized with the following directory structure:
+
+```
+├── datasets
+│   ├── base_result.csv                                  <- the test data
+│   ├── cleaned_house_sales.csv                                 <- the train data
+│   ├── compare_result.csv                                  <- the test data
+│   ├── house_sales.csv                                 <- the train data
+│   ├── processed_train_data.csv                                  <- the test data
+│   ├── processed_train_df.csv                                 <- the train data
+│   ├── processed_validation_data.csv                                  <- the test data
+│   ├── processed_validation_df.csv                                 <- the train data
+|
+|
+├── img
+│   ├── 0.gif                              <- A picture of the bottom 10 features
+│   ├── 1.gif                           <- list of all the dependencies with their versions(for conda environment)
+│   ├── 2.gif                         <- gif file used in the README
+│   ├── 3.gif                               <- heatmap image used in the README
+│   ├── 4.gif                    <- banner image used in the README
+│
+│
+│
+├── LICENSE                                       <- license file.
+│
+│
+├── Loan_amount_prediction.ipynb                  <- main python notebook where all the analysis and modeling are done.
+│
+│
+├── README.md                                     <- this readme file.
+│
+│
+├── loan_amount_app.py                            <- file with the model and streamlit component for rendering the interface.
+│
+│
+├── requirements.txt                              <- list of all the dependencies with their versions(used for Streamlit).
+
+```
 
 - **.devcontainer**
   - `devcontainer.json`
@@ -174,31 +217,31 @@ A Streamlit web application is created to provide an interactive interface for v
   - Access the app through the provided URL.
 
   <p align="center">
-  <img src="/0.gif" alt="Streamlit App" width="800">
+  <img src="/img/0.gif" alt="Streamlit App" width="800">
 </p>
 
 - Trying different number of bedrooms and house types.
 
 <p align="center">
-  <img src="/1.gif" alt="Streamlit App" width="800">
+  <img src="/img/1.gif" alt="Streamlit App" width="800">
 </p>
 
 - Trying different Areas.
 
 <p align="center">
-  <img src="/2.gif" alt="Streamlit App" width="800">
+  <img src="/img/2.gif" alt="Streamlit App" width="800">
 </p>
 
 - Trying different cities.
 
 <p align="center">
-  <img src="/3.gif" alt="Streamlit App" width="800">
+  <img src="/img/3.gif" alt="Streamlit App" width="800">
 </p>
 
 - Trying different combinations.
 
 <p align="center">
-  <img src="/4.gif" alt="Streamlit App" width="800">
+  <img src="/img/4.gif" alt="Streamlit App" width="800">
 </p>
 
   ## Requirements
