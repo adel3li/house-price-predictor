@@ -111,7 +111,7 @@ The code for this project is organized into scripts and notebooks. Below is an o
   - `data_mapper.py`: Script for mapping data.
   - `train.py`: Script for model training.
   - `validate.py`: Script for model validation.
-  
+
   - **Notebooks:**
   - `house_sales_EDA.ipynb`: Jupyter notebook for exploratory data analysis.
   - `profiling_house_sales_data.ipynb`: Jupyter notebook for profiling house sales data.
@@ -172,6 +172,10 @@ A Streamlit web application is created to provide an interactive interface for v
     ```
 
   - Access the app through the provided URL.
+
+    ![Streamlit App Demo ](/0.gif)
+
+    ![Streamlit App Demo 1](/1.gif)
 
   ## Requirements
 
