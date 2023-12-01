@@ -8,12 +8,12 @@ This repository contains the code and data for a project related to house sales.
 
 1. [Project Structure](#project-structure)
 2. [Installation](#installation)
-3. [Usage](#usage)
-4. [Data](#data)
-5. [Code](#code)
+3. [Data](#data)
+4. [Code](#code)
+5. [Data Profiling](#data-profiling)
 6. [Data Cleaning](#data-cleaning)
 7. [Exploratory Data Analysis](#exploratory-data-analysis)
-. [Model Training](#model-training)
+8. [Model Training](#model-training)
 10. [Validation](#validation)
 11. [Streamlit App](#streamlit-app)
 12. [Requirements](#requirements)
@@ -112,9 +112,15 @@ The code for this project is organized into scripts and notebooks. Below is an o
   - `train.py`: Script for model training.
   - `validate.py`: Script for model validation.
 
+## Data Profiling
+
 - **Notebooks:**
   - `house_sales_EDA.ipynb`: Jupyter notebook for exploratory data analysis.
   - `profiling_house_sales_data.ipynb`: Jupyter notebook for profiling house sales data.
+
+- **`notebooks/profiling_house_sales_data.ipynb`**
+  - This Jupyter notebook profiles the house sales data, providing detailed statistics and information about the dataset.
+  - It can be used to gain insights into the distribution of features and identify patterns.
 
 ## Data Cleaning
 
@@ -130,13 +136,94 @@ Data cleaning is a crucial step in preparing the house sales data for analysis a
 
 The exploratory data analysis is performed using Jupyter notebooks. Here is a brief overview of the EDA notebooks:
 
-- **`notebooks/profiling_house_sales_data.ipynb`**
-  - This Jupyter notebook profiles the house sales data, providing detailed statistics and information about the dataset.
-  - It can be used to gain insights into the distribution of features and identify patterns.
-
-
 - **`notebooks/house_sales_EDA.ipynb`**
   - This Jupyter notebook explores the raw house sales data.
   - It contains visualizations, statistics, and insights to better understand the characteristics of the dataset.
 
+## Model Training
 
+Model training is a crucial step in developing a predictive model for house sales. The main script for training the model is:
+
+- **`scripts/train.py`**
+  - This script is responsible for training the machine learning model using the processed training data.
+  - It may involve selecting a model, hyperparameter tuning, and fitting the model to the training data.
+  - The trained model and relevant information are saved for later use.
+
+  ## Model Validation
+
+Model validation ensures that the trained machine learning model performs well on new, unseen data. The main script for model validation is:
+
+- **`scripts/validate.py`**
+  - This script is responsible for validating the trained model using the processed validation data.
+  - It assesses the model's performance metrics, such as accuracy, precision, recall, and F1-score.
+  - Validation results may be saved for further analysis and comparison.
+
+  ## Streamlit App
+
+A Streamlit web application is created to provide an interactive interface for visualizing data or model results. The main Streamlit app file is:
+
+- **`app/streamlit_app.py`**
+  - This script creates a web application using the Streamlit framework.
+  - It may include interactive plots, charts, and other visualizations to showcase the project's findings or model predictions.
+  - The app can be run using the following command:
+
+    ```bash
+    streamlit run app/streamlit_app.py
+    ```
+
+  - Access the app through the provided URL.
+
+  ## Requirements
+
+The project requires the following dependencies. Install them using the provided command:
+
+- **Python 3.x**
+  - Ensure you have Python 3.x installed on your system.
+
+- **Dependencies**
+  - Install the required Python packages using the following command:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+  - Check the `requirements.txt` file for a list of specific package versions used in the project.
+
+
+## Contributing
+
+contributions are welcomed to improve the project. To contribute, follow these steps:
+
+1. Fork the repository.
+
+2. Create a new branch:
+
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. Make your changes and commit them:
+```bash
+   git commit -m "Add your commit message here"
+   ```
+4. Push your changes to your forked repository:
+```bash
+   git push origin feature/your-feature-name
+   ```
+
+5. Open a pull request against the main repository.
+6. Your pull request will be reviewed, and once approved, it will be merged.
+
+
+### Bug Reports and Feature Requests
+
+If you encounter any issues or have ideas for improvements, please open an issue on GitHub.
+
+## MIT License
+
+### Copyright (c) [2023] [Adel Ali]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
