@@ -111,12 +111,12 @@ The code for this project is organized into scripts and notebooks. Below is an o
   - `data_mapper.py`: Script for mapping data.
   - `train.py`: Script for model training.
   - `validate.py`: Script for model validation.
-
-## Data Profiling
-
-- **Notebooks:**
+  
+  - **Notebooks:**
   - `house_sales_EDA.ipynb`: Jupyter notebook for exploratory data analysis.
   - `profiling_house_sales_data.ipynb`: Jupyter notebook for profiling house sales data.
+
+## Data Profiling
 
 - **`notebooks/profiling_house_sales_data.ipynb`**
   - This Jupyter notebook profiles the house sales data, providing detailed statistics and information about the dataset.
