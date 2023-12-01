@@ -174,7 +174,7 @@ A Streamlit web application is created to provide an interactive interface for v
   - Access the app through the provided URL.
 
     <p align="center">
-  <img src="/0.gif" alt="Streamlit App" width="800">
+  <img src="/0.gif" alt="Streamlit App" width="600">
 </p>
 
     ![Streamlit App Demo 1](/1.gif)
