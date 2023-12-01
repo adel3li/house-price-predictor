@@ -174,31 +174,31 @@ A Streamlit web application is created to provide an interactive interface for v
   - Access the app through the provided URL.
 
   <p align="center">
-  <img src="/0.gif" alt="Streamlit App" width="650">
+  <img src="/0.gif" alt="Streamlit App" width="800">
 </p>
 
 - Trying different number of bedrooms and house types.
 
 <p align="center">
-  <img src="/1.gif" alt="Streamlit App" width="650">
+  <img src="/1.gif" alt="Streamlit App" width="800">
 </p>
 
 - Trying different Areas.
 
 <p align="center">
-  <img src="/2.gif" alt="Streamlit App" width="650">
+  <img src="/2.gif" alt="Streamlit App" width="800">
 </p>
 
 - Trying different cities.
 
 <p align="center">
-  <img src="/3.gif" alt="Streamlit App" width="650">
+  <img src="/3.gif" alt="Streamlit App" width="800">
 </p>
 
 - Trying different combinations.
 
 <p align="center">
-  <img src="/4.gif" alt="Streamlit App" width="650">
+  <img src="/4.gif" alt="Streamlit App" width="800">
 </p>
 
   ## Requirements
