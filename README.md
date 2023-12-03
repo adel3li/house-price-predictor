@@ -24,26 +24,34 @@ This repository contains the code and data for a project related to house sales.
 
 The project is organized with the following directory structure:
 
-.
-├── .devcontainer
-│   ├── devcontainer.json
-├── data
-│   ├── base_result.csv
-│   ├── cleaned_house_sales.csv
-│   ├── compare_result.csv
-│   ├── house_sales.csv
-│   ├── processed_train_data.csv
-│   ├── processed_train_df.csv
-│   ├── processed_validation_data.csv
-│   └── processed_validation_df.csv
-├── cleaning_house_sales.py
-├── data_mapper.py
-├── house_sales_EDA.ipynb
-├── profiling_house_sales_data.ipynb
-├── requirements.txt
-├── streamlit_app.py
-├── train.py
-└── validate.py
+- **.devcontainer**
+  - `devcontainer.json`
+
+- **data**
+  - `base_result.csv`
+  - `cleaned_house_sales.csv`
+  - `compare_result.csv`
+  - `house_sales.csv`
+  - `processed_train_data.csv`
+  - `processed_train_df.csv`
+  - `processed_validation_data.csv`
+  - `processed_validation_df.csv`
+
+- **scripts**
+  - `cleaning_house_sales.py`
+  - `data_mapper.py`
+  - `train.py`
+  - `validate.py`
+
+- **notebooks**
+  - `house_sales_EDA.ipynb`
+  - `profiling_house_sales_data.ipynb`
+
+- **requirements**
+  - `requirements.txt`
+
+- **app**
+  - `streamlit_app.py`
 
 
 ## Installation
@@ -55,6 +63,9 @@ To set up the project locally, follow these steps:
    ```bash
    <!-- git clone https://github.com/your-username/your-repo.git -->
 
+  ```bash
+  cd your-repo
+  ```
 
 ## Data
 
