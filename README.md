@@ -26,16 +26,16 @@ The project is organized with the following directory structure:
 
 .
 ├── .devcontainer
-│   ├── devcontainer.json
+│ ├── devcontainer.json
 ├── data
-│   ├── base_result.csv
-│   ├── cleaned_house_sales.csv
-│   ├── compare_result.csv
-│   ├── house_sales.csv
-│   ├── processed_train_data.csv
-│   ├── processed_train_df.csv
-│   ├── processed_validation_data.csv
-│   └── processed_validation_df.csv
+│ ├── base_result.csv
+│ ├── cleaned_house_sales.csv
+│ ├── compare_result.csv
+│ ├── house_sales.csv
+│ ├── processed_train_data.csv
+│ ├── processed_train_df.csv
+│ ├── processed_validation_data.csv
+│ └── processed_validation_df.csv
 ├── cleaning_house_sales.py
 ├── data_mapper.py
 ├── house_sales_EDA.ipynb
