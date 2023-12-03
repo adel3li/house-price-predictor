@@ -1,6 +1,7 @@
 import streamlit as st
 import sklearn
 import pandas as pd
+import sklearn
 from sklearn.ensemble import RandomForestRegressor
 
 # Load processed training data
