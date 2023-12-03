@@ -63,6 +63,9 @@ To set up the project locally, follow these steps:
    ```bash
    <!-- git clone https://github.com/your-username/your-repo.git -->
 
+  ```bash
+  cd your-repo
+  ```
 
 ## Data
 
