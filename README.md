@@ -12,11 +12,11 @@
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 Badge [source](https://shields.io/)
-
+<!--
 ## Authors
 
 - [@adel3li](https://github.com/adel3li)
-
+-->
 ## Description
 
 This repository contains the code and data for a project related to house sales. The project involves data cleaning, exploratory data analysis (EDA), profiling, and model training and validation. The project is structured with specific folders for data, code, and various outputs.
