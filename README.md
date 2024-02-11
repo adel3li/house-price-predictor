@@ -19,7 +19,7 @@ Badge [source](https://shields.io/)
 -->
 ## Description
 
-This repository contains the code and data for a project related to house sales. The project involves data cleaning, exploratory data analysis (EDA), profiling, and model training and validation. The project is structured with specific folders for data, code, and various outputs.
+This repository contains the code and data for the [House Price Predictor](https://house-sales-app.streamlit.app) web application. The project involves data cleaning, exploratory data analysis (EDA), profiling, and model training and validation. The project is structured with specific folders for data, code, and various outputs.
 
 ## Table of Contents
 
